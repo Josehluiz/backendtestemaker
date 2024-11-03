@@ -1,0 +1,19 @@
+{
+  "name": "backend-test-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "José Luiz Pereira da Rosa",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^3.1.7",
+    "openai": "^3.3.0"
+  }
+}
